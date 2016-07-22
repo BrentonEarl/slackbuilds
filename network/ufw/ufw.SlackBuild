@@ -58,8 +58,8 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-zcat $CWD/ufw.conf.patch.gz | patch -p1 --verbose
-patch -p0 --verbose < $CWD/ufw-0.35-fix-iptables-path.patch
+patch -p1 --verbose < $CWD/ufw.conf.patch
+patch -p1 --verbose < $CWD/ufw-0.35-fix-iptables-path.patch
 
 python setup.py install --root=$PKG
 
