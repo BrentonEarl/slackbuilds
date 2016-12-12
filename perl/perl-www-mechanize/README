@@ -1,17 +1,5 @@
-WWW::Mechanize is a Perl module for stateful programmatic web browsing, used
-for automated interaction with websites.
-
-Features include:
-
- * All HTTP methods
- * High-level hyperlink and HTML form support, without having to parse HTML
-   yourself
- * SSL support
- * Automatic cookies
- * Custom HTTP headers
- * Automatic handling of redirections
- * Proxies
- * HTTP authentication
+Perl module to assist in interaction with websites. Handles link
+scrubbing and form processing.
 
 NOTE: If you do not have an Internet connection when building, comment
 out the line 'make test' in the SlackBuild.
