@@ -1,7 +1,6 @@
-autojump is a faster way to navigate your filesystem. It works by
+Autojump is a faster way to navigate your filesystem. It works by
 maintaining a database of the directories you use the most from the
-command line. The jumpstat command shows you the current contents
-of the database. You need to work a little bit before the database
+command line.  You need to work a little bit before the database
 becomes usable. Autojump will listen and rank your 'cd' commands by
 frequency. Once your database is reasonably complete, you can "jump"
 to a commonly "cd"ed directory.  It supports the bash, zsh, and
@@ -10,18 +9,27 @@ tcsh shells.
 Installation
 ------------
 
-Add the following to your .bashrc so that autojump commands will
-be recognized:
+Add the following to your .bashrc:
 
-source /etc/profile.d/autojump.bash
+[[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
 
-Next, open a new shell and execute:
+You must open a new shell for autojump to become active.  You may
+also need to log in and out of your desktop environment.
+
+Usage
+-----
 
 $ cd /tmp
 $ cd /home
 $ cd /var
+$ cd /var/log
 $ j tmp
+$ j log
+$ jo /home
+$ j -s
 
-You should be dropped back into the /tmp directory.  You can activate
-autojump for other shells by changing the sourced file extension to
-a supported shell name.
+The "j" command drops you back into each directory.  The "jo"
+command will launch a file manager for the home directory if
+you are using a graphical environment.  Adding "-s" to the "j"
+command will list your autojump database.  See the man page
+for further details.
