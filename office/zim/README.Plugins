@@ -6,5 +6,5 @@ SlackBuilds.org are not listed either.
 * Insert Diagram: Graphviz
 * Insert Score: lilypond
 * Link Map: Graphviz
-* Source View: gtksourceview
+* Source View: pygtksourceview
 * Spell Checker: pygtkspell
