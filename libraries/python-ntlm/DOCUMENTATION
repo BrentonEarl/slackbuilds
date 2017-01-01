@@ -90,6 +90,11 @@ In contrast the python-ntlm library is used to make it possible for python
 code to retrieve content from an NTLM protected server.
 
 ## References
-* [MS-NLMP]: [http://download.microsoft.com/download/a/e/6/ae6e4142-aa58-45c6-8dcf-a657e5900cd3/%5BMS-NLMP%5D.pdf NT LAN Manager (NTLM) Authentication Protocol Specification]
-* [MS-NTHT]: [http://download.microsoft.com/download/a/e/6/ae6e4142-aa58-45c6-8dcf-a657e5900cd3/%5BMS-NTHT%5D.pdf NTLM Over HTTP Protocol Specification]
-* [http://www.blackhat.com/presentations/bh-asia-04/bh-jp-04-pdfs/bh-jp-04-seki.pdf Optimized Attack for NTLM2 Session Response]
+* [MS-NLMP]: NT LAN Manager (NTLM) Authentication Protocol Specification
+http://download.microsoft.com/download/a/e/6/ae6e4142-aa58-45c6-8dcf-a657e5900cd3/%5BMS-NLMP%5D.pdf
+
+* [MS-NTHT]: NTLM Over HTTP Protocol Specification
+http://download.microsoft.com/download/a/e/6/ae6e4142-aa58-45c6-8dcf-a657e5900cd3/%5BMS-NTHT%5D.pdf
+
+* Optimized Attack for NTLM2 Session Response
+http://www.blackhat.com/presentations/bh-asia-04/bh-jp-04-pdfs/bh-jp-04-seki.pdf
