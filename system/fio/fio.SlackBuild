@@ -24,7 +24,7 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 PRGNAM=fio
-VERSION=${VERSION:-2.19}
+VERSION=${VERSION:-2.20}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
@@ -55,6 +55,11 @@ else
   LIBDIRSUFFIX=""
 fi
 
+# Fio has a Gtk interface that is not built by default.
+# To enable it pass 'yes' to the GUI variable
+# Example:  GUI=yes sh fio.SlackBuild
+gui="" ; [ "$GUI" = "yes" ] && gui="--enable-gfio"
+
 set -e
 
 rm -rf $PKG
@@ -72,7 +77,8 @@ find -L . \
 
 ./configure \
   --prefix="/usr" \
-  --extra-cflags="$SLKCFLAGS"
+  --extra-cflags="$SLKCFLAGS" \
+  $gui
 
 make
 make install DESTDIR=$PKG
