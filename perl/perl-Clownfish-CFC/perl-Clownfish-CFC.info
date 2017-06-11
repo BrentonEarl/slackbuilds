@@ -5,6 +5,6 @@ DOWNLOAD="http://search.cpan.org/CPAN/authors/id/N/NW/NWELLNHOF/Clownfish-CFC-0.
 MD5SUM="61324064b73dcab88c8d419306a909e4"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
-REQUIRES=""
+REQUIRES="perl-Module-Build"
 MAINTAINER="Brenton Earl"
 EMAIL="brent@exitstatusone.com"

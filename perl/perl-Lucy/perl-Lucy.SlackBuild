@@ -77,9 +77,9 @@ perl Build.PL \
   --installdirs vendor \
   --config installvendorman1dir=/usr/man/man1 \
   --config installvendorman3dir=/usr/man/man3
-perl Build
-perl Build test
-perl Build install \
+./Build
+./Build test
+./Build install \
   --destdir $PKG
 cd -
 
