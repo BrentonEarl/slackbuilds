@@ -1,0 +1,3 @@
+The Apache Clownfish symbiotic object system.  It pairs with host programming
+language environments and facilitates the development of high performance
+language extensions.

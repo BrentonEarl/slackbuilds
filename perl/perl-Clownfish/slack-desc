@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+              |-----handy-ruler------------------------------------------------------|
+perl-Clownfish: perl-Clownfish (symbiotic object system)
+perl-Clownfish:
+perl-Clownfish: The Apache Clownfish symbiotic object system.  It pairs with host
+perl-Clownfish: programming language environments and facilitates the development of
+perl-Clownfish: high performance language extensions.
+perl-Clownfish:
+perl-Clownfish: Home page: http://search.cpan.org/dist/Clownfish/
+perl-Clownfish:
+perl-Clownfish:
+perl-Clownfish:
+perl-Clownfish:
