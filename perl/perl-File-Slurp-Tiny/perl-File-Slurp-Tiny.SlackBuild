@@ -22,12 +22,12 @@
 #  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-PRGNAM=perl-Slurp-Tiny
+PRGNAM=perl-File-Slurp-Tiny
 VERSION=${VERSION:-0.004}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
-SRCNAM="File-Slurp-Tiny"
+SRCNAM="$(printf $PRGNAM | cut -d- -f2-)"
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in

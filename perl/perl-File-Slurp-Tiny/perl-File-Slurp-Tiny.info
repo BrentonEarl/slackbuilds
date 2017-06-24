@@ -1,4 +1,4 @@
-PRGNAM="perl-Slurp-Tiny"
+PRGNAM="perl-File-Slurp-Tiny"
 VERSION="0.004"
 HOMEPAGE="http://search.cpan.org/dist/File-Slurp-Tiny/"
 DOWNLOAD="http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/File-Slurp-Tiny-0.004.tar.gz"
