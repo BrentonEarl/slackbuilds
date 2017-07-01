@@ -1,6 +1,6 @@
 PRGNAM="textadept"
 VERSION="9.4"
-HOMEPAGE="http://foicica.com/textadept/"
+HOMEPAGE="https://foicica.com/textadept/"
 DOWNLOAD="https://foicica.com/textadept/download/textadept_9.4.i386.tgz"
 MD5SUM="3e073a7b47dc09b8b1b5081652e43b18"
 DOWNLOAD_x86_64="https://foicica.com/textadept/download/textadept_9.4.x86_64.tgz"
