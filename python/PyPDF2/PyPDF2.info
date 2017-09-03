@@ -1,4 +1,4 @@
-PRGNAM="pyPdf"
+PRGNAM="PyPDF2"
 VERSION="1.26.0"
 HOMEPAGE="https://mstamy2.github.io/PyPDF2/"
 DOWNLOAD="https://github.com/mstamy2/PyPDF2/archive/1.26.0/PyPDF2-1.26.0.tar.gz"
