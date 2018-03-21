@@ -1,9 +1,13 @@
-### Slackbuilds for Slackware 14.2
+## Slackbuilds for Slackware
 
-This is where I track the 3rd party software I maintain for the
-Slackbuilds.org repository.  I will use this repository to track my
-updates for Slackware 14.2.  The SBo branch tracks the 14.2 branch on
+This is where I track the software I maintain for the SlackBuilds.org
+repository.  The master branch tracks just my SlackBuilds.  The SBo-14.2
+branch tracks all SlackBuilds in the official 14.2 branch on
 SlackBuilds.org.
 
+### Related Links
 -  [Slackware Web Site](http://www.slackware.com/)
--  [SlackBuilds.org](https://slackbuilds.org/cgit)
+-  [SlackBuilds.org Web Site](https://slackbuilds.org/)
+-  [SlackBuilds FAQ](https://slackbuilds.org/faq/)
+-  [SlackBuilds HOWTO](https://slackbuilds.org/howto/)
+-  [git.slackbuilds.org](https://git.slackbuilds.org/slackbuilds/)
