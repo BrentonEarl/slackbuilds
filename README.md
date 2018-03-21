@@ -10,4 +10,4 @@ SlackBuilds.org.
 -  [SlackBuilds.org Web Site](https://slackbuilds.org/)
 -  [SlackBuilds FAQ](https://slackbuilds.org/faq/)
 -  [SlackBuilds HOWTO](https://slackbuilds.org/howto/)
--  [git.slackbuilds.org](https://git.slackbuilds.org/slackbuilds/)
+-  [git.slackbuilds.org](https://git.slackbuilds.org/)
