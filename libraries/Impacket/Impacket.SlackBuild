@@ -65,7 +65,7 @@ rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
 rm -rf $SRCNAM-$SRCNAM$SRCVER
-tar -xzvf $CWD/$SRCNAM$SRCVER.tar.gz
+tar -xzvf $CWD/$SRCNAM-$SRCNAM$SRCVER.tar.gz
 cd $SRCNAM-$SRCNAM$SRCVER
 chown -R root:root .
 find -L . \
